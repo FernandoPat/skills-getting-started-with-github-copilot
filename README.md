@@ -12,5 +12,25 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## Testing
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run tests with pytest:
+
+```bash
+pytest --maxfail=1 --disable-warnings -q
+```
+
+3. If you only want the API tests:
+
+```bash
+pytest -q tests/test_app.py
+```
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
